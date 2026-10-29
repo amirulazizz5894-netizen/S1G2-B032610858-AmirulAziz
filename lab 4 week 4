@@ -1,8 +1,0 @@
-int pin, attempts = 3; 
-cin >> pin; 
-if (pin == 2468) 
-{    
-cout << "Access granted\n";     
-attempts = 0;
-}
-cout << "Attempts left = " << attempts << "\n";
